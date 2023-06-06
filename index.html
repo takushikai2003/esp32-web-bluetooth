@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Web Bluetooth API Sample">
+    <meta name="viewport" content="width=640, maximum-scale=1.0, user-scalable=yes">
+    <title>ESP32 BLE</title>
+    <style>
+        div {display: inline-block; _display: inline;}
+    </style>
+    </head>
+    <body>
+        <button id="connect" class="button">Connect</button>
+        <button id="disconnect" class="button">Disconnect</button>
+        <br>
+        接続デバイス：<div id="device_name">xxxx</div>
+        <br>
+        <br>
+        <button id="readdata" class="button">Read</button>
+        <button id="startnotify" class="button">Start Notify</button>
+        <button id="stopnotify" class="button">Stop Notify</button>
+        <br>
+        <br>
+        測定結果
+        <h1 div id="data_text">xxxx</div /h1>
+    </body>
+    <script type="text/javascript" src="bluejelly.js"></script>
+    <script type="text/javascript" src="thermo.js"></script>
+</html>
